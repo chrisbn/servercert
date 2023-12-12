@@ -1228,8 +1228,6 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
    ii. the CA can reliably verify that the certification was validly signed by such person, and that such person does have the requisite authority to provide such certification.
 
 ## 11.13. Final Cross-Correlation and Due Diligence
-The results of the verification processes and procedures outlined in these Guidelines are intended to be viewed both individually and as a group.
-
 1. Due Diligence is the process whereby a Validation Specialist reviews all information and documentation assembled in support of the EV Certificate application to confirm that each verification process and procedure performed, separately, meets the requirements of these Guidelines. The CA MUST perform Due Diligence for each verification process and procedure where a decision is made by a Validation Specialist. Due Diligence is not required for automated processes and/or procedures, including Verification of Domain Name(s).
 
 2. Cross Correlation is the process whereby a Validation Specialist reviews all information and documentation assembled in support of the EV Certificate application to confirm that all information and documentation relate to the same Subject and that there are no discrepancies between the verification elements as they relate to one another.
