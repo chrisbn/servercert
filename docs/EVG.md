@@ -1229,7 +1229,17 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
 
 ## 11.13. Final Cross-Correlation and Due Diligence
 
-1. The results of the verification processes and procedures outlined in these Guidelines are intended to be viewed both individually and as a group.  Thus, after all of the verification processes and procedures are completed, the CA MUST have a person who is not responsible for the collection of information review all of the information and documentation assembled in support of the EV Certificate application and look for discrepancies or other details requiring further explanation.
+1. The results of the verification processes and procedures outlined in these Guidelines are intended to be viewed both individually and as a group.  
+
+Due Diligence is the process whereby a Validation Specialist reviews all information and documentation assembled in support of the EV Certificate application to confirm that each verification process and procedure performed, separately, meets the requirements of these Guidelines.
+
+The CA MUST perform Due Diligence for each verification process and procedure where a decision is made by a Validation Specialist. Due Diligence is not required for automated processes and/or procedures, including Verification of Domain Name(s).
+
+Cross Correlation is the process whereby a Validation Specialist reviews all information and documentation assembled in support of the EV Certificate application to confirm that all information and documentation relate to the same Subject and that there are no discrepancies between the verification elements as they relate to one another.
+
+The CA MUST have a person not responsible for the collection of information perform this Cross Correlation. Verification of Domain Name(s) is out of scope of Cross Correlation.
+
+Due Diligence and Cross Correlation can be performed by a single Validation Specialist, however the Validation Specialist MUST be independent of the information and documentation reviewed,  (i.e. not involved in the processes and procedures performed).
 2. The CA MUST obtain and document further explanation or clarification from the Applicant, Certificate Approver, Certificate Requester, Qualified Independent Information Sources, and/or other sources of information, as necessary, to resolve those discrepancies or details that require further explanation.
 3. The CA MUST refrain from issuing an EV Certificate until the entire corpus of information and documentation assembled in support of the EV Certificate Request is such that issuance of the EV Certificate will not communicate factual information that the CA knows, or the exercise of due diligence should discover from the assembled information and documentation, to be inaccurate,.  If satisfactory explanation and/or additional documentation are not received within a reasonable time, the CA MUST decline the EV Certificate Request and SHOULD notify the Applicant accordingly.
 4. In the case where some or all of the documentation used to support the application is in a language other than the CA's normal operating language, the CA or its Affiliate MUST perform the requirements of this Final Cross-Correlation and Due Diligence section using employees under its control and having appropriate training, experience, and judgment in confirming organizational identification and authorization and fulfilling all qualification requirements contained in [Section 14.1](#141-trustworthiness-and-competence).  When employees under the control of the CA do not possess the language skills necessary to perform the Final Cross-Correlation and Due Diligence a CA MAY:
