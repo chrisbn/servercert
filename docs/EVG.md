@@ -1228,11 +1228,11 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
    ii. the CA can reliably verify that the certification was validly signed by such person, and that such person does have the requisite authority to provide such certification.
 
 ## 11.13. Final Cross-Correlation and Due Diligence
-1. The CA MUST perform Due Diligence and Cross-Correlation for each verification process and procedure where a decision is made by a Validation Specialist. Verification of Domain Name(s), if performed in an automated manner, is out of scope of Due Diligence and Cross-Correlation.
+1. The CA MUST perform Due Diligence and Cross-Correlation for each verification process and procedure where a decision is made by a Validation Specialist. 
 
-2. Due Diligence is the process of confirming that each verification process and procedure performed, separately, meets the requirements of these Guidelines. 
+2. Due Diligence is the process of confirming that each verification process and procedure performed, separately, meets the requirements of these Guidelines. Verification of Domain Name(s), if performed in an automated manner, is out of scope of Due Diligence.
 
-3. Cross-Correlation is the process of confirming that all Subject information and documentation assembled as part of the verification process relates to the same Subject and that there are no discrepancies between the verification elements as they relate to one another.
+3. Cross-Correlation is the process of confirming that all Subject information and documentation assembled as part of the verification process relates to the same Subject and that there are no discrepancies between the verification elements as they relate to one another. Verification of Domain Name(s) is out of scope of Cross-Correlation.
 
 4. Due Diligence and Cross-Correlation MUST be performed by a Validation Specialist that was not involved in the processes and procedures for assembling the information and documentation. Due Diligence and Cross-Correlation MAY be performed as two actions together by a single individual.
 
