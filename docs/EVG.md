@@ -1248,6 +1248,13 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
 
 For each EV Certificate Request, including requests to renew existing EV Certificates, the CA MUST ensure all authentication and verification tasks required by these Guidelines have been completed, to ensure that the request is properly authorized by the Applicant and that the information in the EV Certificate is still accurate and valid. This section sets forth the conditions on the re-use of documentation collected by the CA.
 
+The CA MAY rely on previously performed Due Diligence and Cross Correlation for the an Applicant to support multiple EV Certificate Requests for that Subscriber, on the conditions that:
+1. the data used to support issuance of an EV Certificate meets the Age of Validated Data requirement as set forth in 11.14.3; 
+2. a Pre‑Authorized Certificate Approver, pre-Authorized in line with 11.8.4  reviewed and approved the EV Certificate Request by use of:
+  A. 11.10.2. option 2; 
+  B. 11.9.2. option 3, in case the Pre‑Authorized Certificate Approver also acts in the capacity of a Certificate Requester
+
+
 The CA MAY reuse a previously submitted EV Certificate Request, Subscriber Agreement, or Terms of Use, including use of a single EV Certificate Request in support of multiple EV Certificates containing the same Subject to the extent permitted under Section 11.9 and Section 11.10.
 
 ### 11.14.1. Validation For Existing Subscribers
