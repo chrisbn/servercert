@@ -1042,7 +1042,7 @@ Such an agreement MUST provide that the Applicant shall be obligated under the S
 
 ## 11.9. Verification of Signature on Subscriber Agreement and EV Certificate Requests
 
-Both the Subscriber Agreement and each non-pre-authorized EV Certificate Request MUST be signed.  The Subscriber Agreement MUST be signed by an authorized Contract Signer.  The EV Certificate Request MUST be signed by the Certificate Requester submitting the document, unless the Certificate Request has been pre-authorized in line with [Section 11.8.4](#1184-pre-authorized-certificate-approver).  If the Certificate Requester is not also an authorized Certificate Approver, then an authorized Certificate Approver MUST independently approve the EV Certificate Request.  In all cases, applicable signatures MUST be a legally valid and contain an enforceable seal or handwritten signature (for a paper Subscriber Agreement and/or EV Certificate Request), or a legally valid and enforceable electronic signature (for an electronic Subscriber Agreement and/or EV Certificate Request), that binds the Applicant to the terms of each respective document.
+Both the Subscriber Agreement and each non-pre-authorized EV Certificate Request MUST be signed.  The Subscriber Agreement MUST be signed by an authorized Contract Signer.  The EV Certificate Request MUST be signed by the Certificate Requester submitting the document, unless the Certificate Request has been approved by a Certificate Approver pre-authorized in line with [Section 11.8.4](#1184-pre-authorized-certificate-approver).  If the Certificate Requester is not also an authorized Certificate Approver, then an authorized Certificate Approver MUST independently approve the EV Certificate Request.  In all cases, applicable signatures MUST be a legally valid and contain an enforceable seal or handwritten signature (for a paper Subscriber Agreement and/or EV Certificate Request), or a legally valid and enforceable electronic signature (for an electronic Subscriber Agreement and/or EV Certificate Request), that binds the Applicant to the terms of each respective document.
 
 ### 11.9.1. Verification Requirements
 
@@ -1228,11 +1228,11 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
    ii. the CA can reliably verify that the certification was validly signed by such person, and that such person does have the requisite authority to provide such certification.
 
 ## 11.13. Final Cross-Correlation and Due Diligence
-1. The CA MUST perform Due Diligence and Cross-Correlation for each verification process and procedure where a decision is made by a Validation Specialist. 
+1. The CA MUST ensure that all information and documentation assembled as part of the verification processes and procedures has undergone Due Diligence and Cross-Correlation prior to issuance of the Certificate. 
 
 2. Due Diligence is the process of confirming that each verification process and procedure performed, separately, meets the requirements of these Guidelines. Verification of Domain Name(s), if performed in an automated manner, is out of scope of Due Diligence.
 
-3. Cross-Correlation is the process of confirming that all Subject information and documentation assembled as part of the verification process relates to the same Subject and that there are no discrepancies between the verification elements as they relate to one another. Verification of Domain Name(s) is out of scope of Cross-Correlation.
+3. Cross-Correlation is the process of confirming that all Subject information and documentation assembled as part of the verification processes and procedures relates to the same Subject and that there are no discrepancies between the verification elements as they relate to one another. Verification of Domain Name(s) is out of scope of Cross-Correlation.
 
 4. Due Diligence and Cross-Correlation MUST be performed by a Validation Specialist that was not involved in the processes and procedures for assembling the information and documentation. Due Diligence and Cross-Correlation MAY be performed as two actions together by a single individual.
 
@@ -1246,7 +1246,7 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
 
 ## 11.14. Requirements for Re-use of Existing Documentation
 
-For each EV Certificate Request, including requests to renew existing EV Certificates, the CA MUST perform all authentication and verification tasks required by these Guidelines to ensure that the request is properly authorized by the Applicant and that the information in the EV Certificate is still accurate and valid. This section sets forth the age limitations on for the use of documentation collected by the CA.
+For each EV Certificate Request, including requests to renew existing EV Certificates, the CA MUST ensure all authentication and verification tasks required by these Guidelines have been completed, to ensure that the request is properly authorized by the Applicant and that the information in the EV Certificate is still accurate and valid. This section sets forth the conditions on the re-use of documentation collected by the CA.
 
 The CA MAY reuse a previously submitted EV Certificate Request, Subscriber Agreement, or Terms of Use, including use of a single EV Certificate Request in support of multiple EV Certificates containing the same Subject to the extent permitted under Section 11.9 and Section 11.10.
 
