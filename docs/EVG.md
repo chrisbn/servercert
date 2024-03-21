@@ -1330,7 +1330,7 @@ The requirements in Section 5.3.3 of the Baseline Requirements apply equally to 
 
 ### 14.1.3. Separation of Duties
 
-1. The CA MUST enforce rigorous control procedures for the separation of validation duties to ensure that no one Validation Specialist can single-handedly complete all verification processes and procedures. Due diligence and cross-correlation checks MAY be performed by a single Validation Specialist, however the Validation Specialist MUST not be involved in the processes and procedures under review. For example, one Validation Specialist validates all Applicant information and a second Validation Specialist performs the due diligence and cross-correlation checks.
+1. The CA MUST enforce rigorous control procedures for the separation of validation duties to ensure that no one Validation Specialist can single-handedly complete all verification processes and procedures. Due diligence and cross-correlation checks specified in Section 11.13 MAY be performed by a single Validation Specialist, however the Validation Specialist MUST NOT have been involved in the processes and procedures under review. For example, one Validation Specialist validates all Applicant information and a second Validation Specialist performs the due diligence and cross-correlation checks.
 2. Such controls MUST be auditable.
 
 ## 14.2. Delegation of Functions to Registration Authorities and Subcontractors
