@@ -1042,7 +1042,7 @@ Such an agreement MUST provide that the Applicant shall be obligated under the S
 
 ## 11.9. Verification of Signature on Subscriber Agreement and EV Certificate Requests
 
-Both the Subscriber Agreement and each non-pre-authorized EV Certificate Request MUST be signed.  The Subscriber Agreement MUST be signed by an authorized Contract Signer.  The EV Certificate Request MUST be signed by the Certificate Requester submitting the document, unless the Certificate Request has been pre-authorized in line with [Section 11.8.4](#1184-pre-authorized-certificate-approver).  If the Certificate Requester is not also an authorized Certificate Approver, then an authorized Certificate Approver MUST independently approve the EV Certificate Request.  In all cases, applicable signatures MUST be a legally valid and contain an enforceable seal or handwritten signature (for a paper Subscriber Agreement and/or EV Certificate Request), or a legally valid and enforceable electronic signature (for an electronic Subscriber Agreement and/or EV Certificate Request), that binds the Applicant to the terms of each respective document.
+Both the Subscriber Agreement and each non-pre-authorized EV Certificate Request MUST be signed.  The Subscriber Agreement MUST be signed by an authorized Contract Signer.  The EV Certificate Request MUST be signed by the Certificate Requester submitting the document, unless the Certificate Request has been approved by a Certificate Approver pre-authorized in line with [Section 11.8.4](#1184-pre-authorized-certificate-approver).  If the Certificate Requester is not also an authorized Certificate Approver, then an authorized Certificate Approver MUST independently approve the EV Certificate Request.  In all cases, applicable signatures MUST be a legally valid and contain an enforceable seal or handwritten signature (for a paper Subscriber Agreement and/or EV Certificate Request), or a legally valid and enforceable electronic signature (for an electronic Subscriber Agreement and/or EV Certificate Request), that binds the Applicant to the terms of each respective document.
 
 ### 11.9.1. Verification Requirements
 
@@ -1066,7 +1066,7 @@ Acceptable methods of authenticating the signature of the Certificate Requester 
 
 ### 11.10.1. Verification Requirements
 
-In cases where an EV Certificate Request is submitted by a Certificate Requester, before the CA issues the requested EV Certificate, the CA MUST verify that an authorized Certificate Approver reviewed and approved the EV Certificate Request.
+In cases where an EV Certificate Request is submitted by a Certificate Requester, before the CA issues the requested EV Certificate, the CA MUST ensure that an authorized Certificate Approver reviewed and approved the EV Certificate Request.
 
 ### 11.10.2. Acceptable Methods of Verification
 
@@ -1228,21 +1228,32 @@ A CA verifying an Applicant using information of the Applicant's Parent, Subsidi
    ii. the CA can reliably verify that the certification was validly signed by such person, and that such person does have the requisite authority to provide such certification.
 
 ## 11.13. Final Cross-Correlation and Due Diligence
+1.Prior to issuance, the CA MUST ensure that it has followed the requirements of these Guidelines  and that all information and documentation assembled as part of the verification processes and procedures supports the issuance of a certificate with the information specified in the certificate request by performing due diligence and cross-correlation checks.
 
-1. The results of the verification processes and procedures outlined in these Guidelines are intended to be viewed both individually and as a group.  Thus, after all of the verification processes and procedures are completed, the CA MUST have a person who is not responsible for the collection of information review all of the information and documentation assembled in support of the EV Certificate application and look for discrepancies or other details requiring further explanation.
-2. The CA MUST obtain and document further explanation or clarification from the Applicant, Certificate Approver, Certificate Requester, Qualified Independent Information Sources, and/or other sources of information, as necessary, to resolve those discrepancies or details that require further explanation.
-3. The CA MUST refrain from issuing an EV Certificate until the entire corpus of information and documentation assembled in support of the EV Certificate Request is such that issuance of the EV Certificate will not communicate factual information that the CA knows, or the exercise of due diligence should discover from the assembled information and documentation, to be inaccurate,.  If satisfactory explanation and/or additional documentation are not received within a reasonable time, the CA MUST decline the EV Certificate Request and SHOULD notify the Applicant accordingly.
-4. In the case where some or all of the documentation used to support the application is in a language other than the CA's normal operating language, the CA or its Affiliate MUST perform the requirements of this Final Cross-Correlation and Due Diligence section using employees under its control and having appropriate training, experience, and judgment in confirming organizational identification and authorization and fulfilling all qualification requirements contained in [Section 14.1](#141-trustworthiness-and-competence).  When employees under the control of the CA do not possess the language skills necessary to perform the Final Cross-Correlation and Due Diligence a CA MAY:
+A. The CA confirms that each verification process and procedure performed, separately, meets the requirements of these Guidelines by performing due diligence checks.  The verification of the Applicant’s Domain Name, verified in accordance with Section 11.7, if performed in an automated manner, is out of scope of the due diligence checks.
+B. As part of the cross-correlation checks, the CA confirms that all Subject information and documentation assembled as part of the verification processes and procedures relates to the same Subject and that there are no discrepancies between the verification elements as they relate to one another.  The verification of the Applicant’s Domain Name, verified in accordance with Section 11.7, is out of scope of the cross-correlation checks.  
+
+2. Due diligence and cross-correlation checks MUST be performed by a Validation Specialist that was not involved in the processes and procedures for assembling the information and documentation. Due diligence and cross-correlation checks MAY be performed as two actions together by a single individual.
+3. The CA MUST obtain and document further explanation or clarification from the Applicant, Certificate Approver, Certificate Requester, Qualified Independent Information Sources, and/or other sources of information, as necessary, to resolve those discrepancies or details that require further explanation.
+4. The CA MUST refrain from issuing an EV Certificate until the entire corpus of information and documentation assembled in support of the EV Certificate Request is such that issuance of the EV Certificate will not communicate factual information that the CA knows, or the exercise of Due Diligence should discover from the assembled information and documentation, to be inaccurate,.  If satisfactory explanation and/or additional documentation are not received within a reasonable time, the CA MUST decline the EV Certificate Request and SHOULD notify the Applicant accordingly.
+5. In the case where some or all of the documentation used to support the application is in a language other than the CA's normal operating language, the CA or its Affiliate MUST perform the requirements of this Final Cross-Correlation and Due Diligence section using employees under its control and having appropriate training, experience, and judgment in confirming organizational identification and authorization and fulfilling all qualification requirements contained in [Section 14.1](#141-trustworthiness-and-competence).  When employees under the control of the CA do not possess the language skills necessary to perform the Final Cross-Correlation and Due Diligence a CA MAY:
 
    A.  Rely on language translations of the relevant portions of the documentation, provided that the translations are received from a Translator; or
    B.  When the CA has utilized the services of an RA, the CA MAY rely on the language skills of the RA to perform the Final Cross-Correlation and Due Diligence, provided that the RA complies with [Section 11.13](#1113-final-cross-correlation-and-due-diligence), Subsections (1), (2) and (3).  Notwithstanding the foregoing, prior to issuing the EV Certificate, the CA MUST review the work completed by the RA and determine that all requirements have been met; or
    C.  When the CA has utilized the services of an RA, the CA MAY rely on the RA to perform the Final Cross-Correlation and Due Diligence, provided that the RA complies with this section and is subjected to the Audit Requirements of [Section 17.5](#175-regular-self-audits) and [Section 17.6](#176-auditor-qualification).
 
-In the case of EV Certificates to be issued in compliance with the requirements of [Section 14.2](#142-delegation-of-functions-to-registration-authorities-and-subcontractors), the Enterprise RA MAY perform the requirements of this Final Cross-Correlation and Due Diligence section.
-
 ## 11.14. Requirements for Re-use of Existing Documentation
 
-For each EV Certificate Request, including requests to renew existing EV Certificates, the CA MUST perform all authentication and verification tasks required by these Guidelines to ensure that the request is properly authorized by the Applicant and that the information in the EV Certificate is still accurate and valid. This section sets forth the age limitations on for the use of documentation collected by the CA.
+For each EV Certificate Request, including requests to renew existing EV Certificates, the CA MUST ensure all authentication and verification tasks required by these Guidelines have been completed, to ensure that the request is properly authorized by the Applicant and that the information in the EV Certificate is still accurate and valid. This section sets forth the conditions on the re-use of documentation collected by the CA.
+
+The CA MAY rely on previously performed  due diligence and cross-correlation checks performed in accordance with Section 11.13 to support multiple EV Certificate Requests for the same Subscriber, on the conditions that:
+
+1. the data used to support issuance of an EV Certificate meets the Age of Validated Data requirement as set forth in 11.14.3;
+2. a Pre‑Authorized Certificate Approver, pre-Authorized in line with 11.8.4 reviewed and approved the EV Certificate Request by use of:
+  A. 11.10.2. option 2; or
+  B. 11.9.2. option 3, in case the Pre‑Authorized Certificate Approver also acts in the capacity of a Certificate Requester
+
+The CA MAY reuse a previously submitted EV Certificate Request, Subscriber Agreement, or Terms of Use, including use of a single EV Certificate Request in support of multiple EV Certificates containing the same Subject to the extent permitted under Section 11.9 and Section 11.10.
 
 ### 11.14.1. Validation For Existing Subscribers
 
@@ -1275,8 +1286,7 @@ A CA may rely on a previously verified certificate request to issue a replacemen
    G.  Name, Title, Agency, and Authority – 398 days, unless a contract between the CA and the Applicant specifies a different term, in which case, the term specified in such contract controls.  For example, the contract MAY include the perpetual assignment of EV roles until revoked by the Applicant or CA, or until the contract expires or is terminated.
 
 2. The 398-day period set forth above SHALL begin to run on the date the information was collected by the CA.
-3. The CA MAY reuse a previously submitted EV Certificate Request, Subscriber Agreement, or Terms of Use, including use of a single EV Certificate Request in support of multiple EV Certificates containing the same Subject to the extent permitted under [Section 11.9](#119-verification-of-signature-on-subscriber-agreement-and-ev-certificate-requests) and [Section 11.10](#1110-verification-of-approval-of-ev-certificate-request).
-4. The CA MUST repeat the verification process required in these Guidelines for any information obtained outside the time limits specified above except when permitted otherwise under [Section 11.14.1](#11141-validation-for-existing-subscribers).
+3. The CA MUST repeat the verification process required in these Guidelines for any information obtained outside the time limits specified above except when permitted otherwise under [Section 11.14.1](#11141-validation-for-existing-subscribers).
 
 # 12. Certificate Issuance by a Root CA
 
@@ -1320,7 +1330,7 @@ The requirements in Section 5.3.3 of the Baseline Requirements apply equally to 
 
 ### 14.1.3. Separation of Duties
 
-1. The CA MUST enforce rigorous control procedures for the separation of validation duties to ensure that no one person can single-handedly validate and authorize the issuance of an EV Certificate.  The Final Cross-Correlation and Due Diligence steps, as outlined in [Section 11.13](#1113-final-cross-correlation-and-due-diligence), MAY be performed by one of the persons.  For example, one Validation Specialist MAY review and verify all the Applicant information and a second Validation Specialist MAY approve issuance of the EV Certificate.
+1. The CA MUST enforce rigorous control procedures for the separation of validation duties to ensure that no one Validation Specialist can single-handedly complete all verification processes and procedures. Due diligence and cross-correlation checks specified in Section 11.13 MAY be performed by a single Validation Specialist, however the Validation Specialist MUST NOT have been involved in the processes and procedures under review. For example, one Validation Specialist validates all Applicant information and a second Validation Specialist performs the due diligence and cross-correlation checks.
 2. Such controls MUST be auditable.
 
 ## 14.2. Delegation of Functions to Registration Authorities and Subcontractors
@@ -1336,9 +1346,8 @@ The CA SHALL verify that the Delegated Third Party's personnel involved in the i
 
 The CA MAY contractually authorize a Subscriber to perform the RA function and authorize the CA to issue additional EV Certificates.  In such case, the Subscriber SHALL be considered an Enterprise RA, and the following requirements SHALL apply:
 
-1. In all cases, the Subscriber MUST be an organization verified by the CA in accordance with these Guidelines;
-2. The CA MUST impose these limitations as a contractual requirement with the Enterprise RA and monitor compliance by the Enterprise RA; and
-3. The Final Cross-Correlation and Due Diligence requirements of [Section 11.13](#1113-final-cross-correlation-and-due-diligence) MAY be performed by a single person representing the Enterprise RA.
+1. In all cases, the Subscriber MUST be an organization verified by the CA in accordance with these Guidelines; and
+2. The CA MUST impose these limitations as a contractual requirement with the Enterprise RA and monitor compliance by the Enterprise RA.
 
 Enterprise RAs that authorize the issuance of EV Certificates solely for its own organization are exempted from the audit requirements of [Section 17.1](#171-eligible-audit-schemes). In all other cases, the requirements of [Section 17.1](#171-eligible-audit-schemes) SHALL apply.
 
@@ -1356,7 +1365,7 @@ As specified in Section 5.4 of the Baseline Requirements.
 
 # 16. Data Security
 
-As specified in Section 5 of the Baseline Requirements. In addition, systems used to process and approve EV Certificate Requests MUST require actions by at least two trusted persons before creating an EV Certificate.
+As specified in Section 5 of the Baseline Requirements.
 
 # 17. Audit
 
