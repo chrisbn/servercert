@@ -1963,13 +1963,3 @@ The following Registration Schemes are currently recognized as valid under these
   [Section 7.1.4.2.4](#71424-subject-jurisdiction-of-incorporation-or-registration-field).
   The stated address of the organization combined with the organization name
   SHALL NOT be the only information used to disambiguate the organization.
-  
-
-
-
-
-
-  
-
-
-
